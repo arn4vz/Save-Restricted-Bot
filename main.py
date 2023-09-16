@@ -7,12 +7,12 @@ import time
 import os
 import threading
 
-bot_token = os.environ.get("TOKEN", None) 
-api_hash = os.environ.get("HASH", None) 
-api_id = os.environ.get("ID", None)
+bot_token = os.environ.get("5944791669:AAHkGl2gQp-JCmgNBa7-_U2YF066Gulckzo", None) 
+api_hash = os.environ.get("4c2acbae998616f69c511676e103f4f9", None) 
+api_id = os.environ.get("20680771", None)
 bot = Client("mybot", api_id=api_id, api_hash=api_hash, bot_token=bot_token)
 
-ss = os.environ.get("STRING", None)
+ss = os.environ.get("BQCSyeIc6t2LrncrLKK4H4Gn4TwcQM04prIv090LW1-Kf1KdRYvMXqNXEnI_WfooprgmaF9R3RwV3FVmhuD3DsHlCXvcHZhnOZ0WUy8_kYxt52jbTZzbvU14U31zy7Zga7C744MddwFCuJBSsDUwBZABBCivxmlYNFbN4d8bIvOz-Tnz4T0zNkbvhol5c5otW-B5uUfOWVpEKVpQbynhcYw4RBHJrXort746NR9-oP0aZAviMn3Bj7mwsgRyEoTnRTeP_5o6Tnp58iXzX3hl88bAmJ-3OScGoL3tGDlUt-DZX9eXunXNan05_IKCmZ6VzPuC6ACbFCB4VfkizbXIuASgAAAAAXiNimIA", None)
 if ss is not None:
 	acc = Client("myacc" ,api_id=api_id, api_hash=api_hash, session_string=ss)
 	acc.start()
